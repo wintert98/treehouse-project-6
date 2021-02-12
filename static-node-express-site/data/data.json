@@ -1,0 +1,51 @@
+{
+    "data": {
+        "projects": [
+            {
+                "id": "treehouse-project-1",
+                "project_name": "A Random Quote Generator",
+                "description": "I practiced my knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
+                "technologies": "HTML, CSS, JavaScript, Data Structures",
+                "live_link": "https://wintert98.github.io/treehouse-project-1/",
+                "github_link": "https://github.com/wintert98/treehouse-project-1",
+                "image_urls": "/images/random_quotes.png"
+            },
+            {
+                "id": "treehouse-project-2",
+                "project_name": "Data Pagination and Filtering",
+                "description": "Displaying a large amount of data on a web page, like a list of 200 movie titles or 400 products, can overwhelm a user with too much information at once. A common solution is to create separate “pages” that each display a small portion of the data. In this project, I wrote JavaScript to display several “pages” of student data that the user can easily navigate and view.",
+                "technologies": "HTML, CSS, JavaScript",
+                "live_link": "",
+                "github_link": "",
+                "image_urls": ""
+            },
+            {
+                "id": "treehouse-project-3",
+                "project_name": "Interactive Form",
+                "description": "Full Stack JavaScript developers create forms to collect information from users for nearly every website and application they build. For this project, I used my skills to enhance a form so that it’s engaging, interactive, and easy to use.",
+                "technologies": "HTML, CSS, JavaScript",
+                "live_link": "",
+                "github_link": "",
+                "image_urls": ""
+            },
+            {
+                "id": "treehouse-project-4",
+                "project_name": "OOP Game Show App",
+                "description": "Create a browser-based, word guessing game: \"Phrase Hunter.\" I used JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard. Can they guess the phrase before they run out of attempts?",
+                "technologies": "HTML, CSS, JavaScript, Object-Oriented Programming",
+                "live_link": "",
+                "github_link": "",
+                "image_urls": ""
+            },
+            {
+                "id": "treehouse-project-5",
+                "project_name": "Public API Requests",
+                "description": "Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages. Using JavaScript, I created an employee directory by communicating with a third-party API (Application Programming Interface).",
+                "technologies": "HTML, CSS, JavaScript, third-party API (Application Programming Interface)",
+                "live_link": "",
+                "github_link": "",
+                "image_urls": ""
+            }
+        ]
+    }
+}
