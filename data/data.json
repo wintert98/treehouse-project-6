@@ -8,7 +8,7 @@
                 "technologies": "HTML, CSS, JavaScript, Data Structures",
                 "live_link": "https://wintert98.github.io/treehouse-project-1/",
                 "github_link": "https://github.com/wintert98/treehouse-project-1",
-                "image_urls": "/images/random_quotes.png"
+                "image_urls": ["/static/images/p1-random.png", "/static/images/p1-2.png", "/static/images/p1-3.png"]
             },
             {
                 "id": "treehouse-project-2",
@@ -17,7 +17,7 @@
                 "technologies": "HTML, CSS, JavaScript",
                 "live_link": "https://wintert98.github.io/treehouse-project-2/",
                 "github_link": "https://github.com/wintert98/treehouse-project-2",
-                "image_urls": ""
+                "image_urls": ["/static/images/p2.png", "/static/images/p2-2.png", "/static/images/p2-3.png"]
             },
             {
                 "id": "treehouse-project-3",
@@ -26,7 +26,7 @@
                 "technologies": "HTML, CSS, JavaScript",
                 "live_link": "https://wintert98.github.io/treehouse-project-3/",
                 "github_link": "https://github.com/wintert98/treehouse-project-3",
-                "image_urls": ""
+                "image_urls": ["/static/images/p3-1.png", "/static/images/p3-2.png", "/static/images/p3-3.png"]
             },
             {
                 "id": "treehouse-project-4",
@@ -35,7 +35,7 @@
                 "technologies": "HTML, CSS, JavaScript, Object-Oriented Programming",
                 "live_link": "https://wintert98.github.io/treehouse-project-4/",
                 "github_link": "https://github.com/wintert98/treehouse-project-4",
-                "image_urls": ""
+                "image_urls": ["/static/images/p4-ph-home.png", "/static/images/p4-ph1.png", "/static/images/p4-ph-won.png", "/static/images/p4-ph-lose.png"]
             },
             {
                 "id": "treehouse-project-5",
@@ -44,7 +44,7 @@
                 "technologies": "HTML, CSS, JavaScript, third-party API (Application Programming Interface)",
                 "live_link": "https://wintert98.github.io/treehouse-project-5/",
                 "github_link": "https://github.com/wintert98/treehouse-project-5",
-                "image_urls": ""
+                "image_urls": ["/static/images/p5-1.png", "/static/images/p5-2.png", "/static/images/p5-3.png"]
             }
         ]
     }
