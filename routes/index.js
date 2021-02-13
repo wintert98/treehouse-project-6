@@ -4,7 +4,7 @@ const { data } = require('../data/data.json');
 const { projects } = data;
 
 router.get('/', (req, res) => {
-    res.render('index');
+    res.render('index', { projects });
 });
 
 router.get('/about', (req, res) => {
@@ -12,16 +12,17 @@ router.get('/about', (req, res) => {
 });
 
 router.get('/project/:id', (req, res) => {
-    res.render('project', {
-        id: projects[id].id,
-        project_name: projects[id].project_name,
-        description: projects[id].description,
-        technologies: projects[id].technologies,
-        live_link: projects[id].live_link,
-        github_link: projects[id].github_link,
-        image_urls: projects[id].image_urls
-
-    });
+   
+       // getting an id from params
+        const id = req.params.id;
+         // and performing a check if the project number is outside of the limits of existing projects
+        if (id > projects.length) {
+            // and if it is, redirect to error
+            //res.redirect('/error');
+          } else {
+             //otherwise I render project template and handle the data to it
+            res.render('project', { projects, id});
+          }  
 });
 
 module.exports = router;
