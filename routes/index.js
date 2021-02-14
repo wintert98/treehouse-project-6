@@ -11,18 +11,28 @@ router.get('/about', (req, res) => {
     res.render('about');
 });
 
+
 router.get('/project/:id', (req, res) => {
    
-       // getting an id from params
-        const id = req.params.id;
-         // and performing a check if the project number is outside of the limits of existing projects
-        if (id > projects.length) {
-            // and if it is, redirect to error
-            //res.redirect('/error');
-          } else {
-             //otherwise I render project template and handle the data to it
-            res.render('project', { projects, id});
-          }  
+       // variable for getting id from params
+        const id = parseInt(req.params.id);
+            // rendering data to projects
+            res.render('project', { 
+                id: id,
+                project_name: data.projects[id].project_name,
+                description: data.projects[id].description,
+                technologies: data.projects[id].technologies,
+                live_link: data.projects[id].live_link,
+                github_link: data.projects[id].github_link,
+                img1: data.projects[id].image_urls[0],
+                img2: data.projects[id].image_urls[1],
+                img3: data.projects[id].image_urls[2]
+        
+
+            });
+            
+        
+          
 });
 
 module.exports = router;
